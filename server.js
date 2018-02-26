@@ -17,11 +17,11 @@ app.get('/article-one', function (req, res) {
   res.sendFile('Article one is requested and will be served here!');
 });
 
-app.get('/article-one', function (req, res) {
+app.get('/article-two', function (req, res) {
   res.sendFile('Article two is requested and will be served here!');
 });
 
-app.get('/article-one', function (req, res) {
+app.get('/article-three', function (req, res) {
   res.sendFile('Article three is requested and will be served here!');
 });
 
